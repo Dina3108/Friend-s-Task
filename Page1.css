@@ -1,0 +1,164 @@
+body {
+  padding-top: 20px;
+}
+.header {
+  background-color: lightblue;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 45px;
+  background-color: rgb(249, 232, 234);
+  border-bottom-color: rgb(251, 205, 213);
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+}
+.h-p {
+  margin-left: 30px;
+  font-family: arial;
+  font-weight: 600;
+}
+.middle-div {
+  background-color: rgb(252, 233, 236);
+  width: 1150px;
+  height: 500px;
+  margin: 50px;
+  border-radius: 20px;
+  box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.5);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.title-p {
+  font-size: 35px;
+  font-weight: 500;
+  font-family: arial;
+  width: 350px;
+  line-height: 60px;
+  margin-left: 100px;
+  margin-bottom: 0px;
+  letter-spacing: 1px;
+}
+.sub-title-p {
+  margin-top: 0;
+  font-size: 15px;
+  width: 340px;
+  line-height: 22px;
+  margin-left: 110px;
+  font-family: handlee, arial;
+}
+.share-button {
+  display: block;
+  padding: 10px 150px 10px 20px;
+  font-size: 14px;
+  border-radius: 15px;
+  border: solid 3px black;
+  margin-bottom: 20px;
+  background-color: rgb(253, 244, 245);
+  color: black;
+}
+.button1-div {
+  display: flex;
+  justify-content: center;
+}
+.button-1 {
+  padding: 10px 150px 10px 20px;
+  font-size: 14px;
+  border-radius: 15px;
+  border: solid 3px black;
+  margin-bottom: 30px;
+  background-color: white;
+}
+.camera-img {
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+}
+.button-2 {
+  display: block;
+  padding: 10px 25px 10px 25px;
+  font-size: 13px;
+  border-radius: 15px;
+  border: solid 3px black;
+  background-color: rgb(253, 244, 245);
+}
+@media only screen and (min-width: 250px) and (max-width: 720px) and (orientation: portrait) {
+  .header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 50px;
+    background-color: rgb(249, 232, 234);
+    border-bottom-color: rgb(251, 205, 213);
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+  }
+  .h-p {
+    margin-left: 30px;
+    font-family: arial;
+    font-weight: 600;
+  }
+  .middle-div {
+    background-color: rgb(252, 233, 236);
+    width: 240px;
+    height: 240px;
+    border-radius: 20px;
+    box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin-left: 0;
+  }
+  .title-p {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: arial;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+    margin-left: 0;
+    padding-top: 40px;
+    width: 230px;
+    line-height: 30px;
+  }
+  .sub-title-p {
+    width: 230px;
+    margin-top: 20px;
+    margin-left: 0;
+    font-size: 15px;
+    font-family: handlee, arial;
+  }
+  .share-button {
+    margin-top: 50px;
+    display: block;
+    padding: 10px 50px 10px 20px;
+    font-size: 14px;
+    border-radius: 15px;
+    border: solid 3px black;
+    margin-bottom: 20px;
+    background-color: rgb(253, 244, 245);
+    color: black;
+  }
+  .button1-div {
+    display: flex;
+  }
+  .button-1 {
+    padding: 10px 70px 10px 10px;
+    font-size: 12px;
+    border-radius: 15px;
+    border: solid 3px black;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: white;
+  }
+  .camera-img {
+    width: 35px;
+    height: 35px;
+  }
+  .button-2 {
+    display: block;
+    padding: 10px 25px 10px 25px;
+    font-size: 13px;
+    border-radius: 15px;
+    border: solid 3px black;
+    background-color: rgb(253, 244, 245);
+  }
+}
